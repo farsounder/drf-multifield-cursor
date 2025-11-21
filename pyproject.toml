@@ -1,0 +1,21 @@
+[project]
+name = "drf-multifield-cursor"
+version = "0.1.0"
+description = "Multifield Cursor Pagination extension for DRF"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "djangorestframework>=3.16.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "django>=5.2.3",
+    "pytest>=8.4.1",
+    "pytest-django>=4.8.0",
+    "ruff>=0.14.6",
+]
