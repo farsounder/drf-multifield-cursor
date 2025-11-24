@@ -29,4 +29,10 @@ the cursor. This was found to be significantly more performant on Postgres.
 uv run pytest
 ```
 
+## Install
 
+Clone locally and install or use gh like:
+```
+uv add git+https://github.com/farsounder/drf-multifield-curs
+or.git
+```
